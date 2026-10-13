@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets, caches, checkpoints, and experiment outputs
+data/
+datasets/
+cache/
+checkpoints/
+weights/
+runs/
+outputs/
+results/
+figures/
+wandb/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+# Temporary and generated files
+tmp/
+temp/
+*.tmp
+*.bak
+dist/
+build/
+
